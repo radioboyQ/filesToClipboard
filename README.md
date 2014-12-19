@@ -1,4 +1,5 @@
-#Copy Contents to Clipboard Version 1.0.0
+#Copy Contents to Clipboard 
+Version 1.0.0
 
 ##Section 1: About:
 This Registry file adds a context menu entry to various text-based files. Right-clicking on one of these files and choosing 'Copy Contents to Clipboard' will put the contents of that file into the clipboard, without having to open an application and manually selecting the data. The currently supported filetypes are:
