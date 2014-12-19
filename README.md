@@ -1,6 +1,6 @@
-Copy Contents to Clipboard Version 1.0.0
-====
-Section 1: About:
+#Copy Contents to Clipboard Version 1.0.0
+
+##Section 1: About:
 This Registry file adds a context menu entry to various text-based files. Right-clicking on one of these files and choosing 'Copy Contents to Clipboard' will put the contents of that file into the clipboard, without having to open an application and manually selecting the data. The currently supported filetypes are:
 .txt
 .rtf
@@ -9,11 +9,11 @@ This Registry file adds a context menu entry to various text-based files. Right-
 .reg
 See Section 3 for information about adding more filetypes.
 
-Section 2: Usage and Installation:
+##Section 2: Usage and Installation:
 To Install, simply double-click the included fileToClipboard.reg file. No Reboot is required.
 To Use, right-click on a supported file type and choose 'Copy Contents to Clipboard'.
 
-Section 3: Extensibility
+##Section 3: Extensibility
 You can add additional filetypes to the supported list, as long as that file stores data as text, such as .bat files, .vbs files, or .html files.
 To add a file type, you need to first determine the file handler in the registry.
 1) Open the Registry Editor (start -> run -> regedit)
