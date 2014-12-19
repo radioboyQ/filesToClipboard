@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\FILETYPE\shell\Copy Contents to Clipboard]
+
+[HKEY_CLASSES_ROOT\FILETYPE\shell\Copy Contents to Clipboard\command]
+@="cmd /c type \"%1\" | clip"
+

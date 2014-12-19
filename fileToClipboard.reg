@@ -1,0 +1,26 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\txtfile\shell\Copy Contents to Clipboard]
+
+[HKEY_CLASSES_ROOT\txtfile\shell\Copy Contents to Clipboard\command]
+@="cmd /c type \"%1\" | clip"
+
+[HKEY_CLASSES_ROOT\inifile\shell\Copy Contents to Clipboard]
+
+[HKEY_CLASSES_ROOT\inifile\shell\Copy Contents to Clipboard\command]
+@="cmd /c type \"%1\" | clip"
+
+[HKEY_CLASSES_ROOT\regfile\shell\Copy Contents to Clipboard]
+
+[HKEY_CLASSES_ROOT\regfile\shell\Copy Contents to Clipboard\command]
+@="cmd /c type \"%1\" | clip"
+
+[HKEY_CLASSES_ROOT\Word.RTF.8\shell\Copy Contents to Clipboard]
+
+[HKEY_CLASSES_ROOT\Word.RTF.8\shell\Copy Contents to Clipboard\command]
+@="cmd /c type \"%1\" | clip"
+
+[HKEY_CLASSES_ROOT\Excel.CSV\shell\Copy Contents to Clipboard]
+
+[HKEY_CLASSES_ROOT\Excel.CSV\shell\Copy Contents to Clipboard\command]
+@="cmd /c type \"%1\" | clip"
